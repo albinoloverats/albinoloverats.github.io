@@ -3,6 +3,8 @@ layout: post
 title: "stegfs"
 date: 2014-10-10 20:18:45
 categories: stegfs
+tags: stegfs release
+author: The stegfs Development Team
 ---
 It's been _a long_ time, but I have finally been able to rewrite [stegfs][] to my own liking. It's near-enough a complete rewrite, however a few things have stayed the same. For instance the file system structure has stayed the same, although this doesn't mean this new version is compatible with the old - the new stegfs **IS NOT BACKWARDS COMPATIBLE**.
 

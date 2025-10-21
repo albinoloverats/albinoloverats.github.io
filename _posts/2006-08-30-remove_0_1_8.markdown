@@ -1,0 +1,15 @@
+---
+layout: post
+title: "remove 0.1-8"
+date: 2006-08-30 10:48:06
+categories: remove
+tags: remove release
+author: The remove Development Team
+---
+There are no big changes in the way things are done. Just a few tidy-ups, etc.
+
+Oh - and the release of our first remove with a GUI and a Windows edition!
+
+Hope you enjoy them,
+
+The remove Team

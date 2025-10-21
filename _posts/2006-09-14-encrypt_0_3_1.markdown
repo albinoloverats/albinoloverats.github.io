@@ -1,0 +1,17 @@
+---
+layout: post
+title: "encrypt 0.3-1"
+date: 2006-09-14 22:22:02
+categories: encrypt
+tags: encrypt release
+author: The encrypt Development Team
+---
+Normally the amount of effort we put in the this release wouldn't have required a change in the major version number, however we can justify it by saying that the glue between the front and back ends has been totally rewritten!
+
+Thus saving almost 100k for both Linux source archives!
+
+It has also allowed us to include more error checking and reporting, especially in the GUI package. However, because of this, and how the Windows release is written this means that all reference to "fprintf (stderr ....." has been removed yet the installer size has still managed to grow :p oops!
+
+Never mind, it all still works.
+
+Until next time...

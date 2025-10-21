@@ -1,0 +1,19 @@
+---
+layout: post
+title: "encrypt 2013.02"
+date: 2013-02-07 07:55:13
+categories: encrypt
+tags: encrypt release
+author: The encrypt Development Team
+---
+It's only been a couple of months, but we're back with our latest offering: encrypt-2013.02
+
+The single biggest new feature of this release is the support for encrypting whole directory trees. So where before you would select just a single file to encrypt, now you can select a directory and encrypt it and all of its children. _(This does not include selecting multiple files; you need to have a single root folder.)_
+
+The other significant milestone achieved with this release is the inclusion of a native Mac OS X 64-bit application :) For all you Apple fans, you no longer have to struggle with Homebrew and X11 to secure your files and folders across various platforms.
+
+The final change was a bug fix around the use of a key file when using the GTK GUI.
+
+That's it this time, see you soon.
+
+The encrypt Development Team

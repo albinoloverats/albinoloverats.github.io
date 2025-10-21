@@ -33,8 +33,6 @@ Binary packages, and GPG signatures, for version 2025.05 are available below (as
 |Desktop Source|[.tar.xz][rp] or [.zip][rz]|[Signature][rg] or [Zip Sig][ry]|_See above_|
 |Android Source|[.tar.xz][qp] or [.zip][qz]|[Signature][qg] or [Zip Sig][qy]|_See above_|
 
-.
-
 A demo of using the CLI can be found over on [asciinema](https://asciinema.org/a/450022), whereas a GUI demo can be found within the [pixmaps](/pixmaps/encrypt/screencast_linux.mp4) directory as well as on [YouTube](https://youtu.be/4au0MWCjIzI).
 
 ¹ At the moment, the OS X app isn't signed by Apple and as such you will be presented with a warning about encrypt being untrusted. This can be overridden in the security settings.

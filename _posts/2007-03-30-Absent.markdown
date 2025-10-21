@@ -3,6 +3,8 @@ layout: post
 title: "Absent"
 date: 2007-03-30 17:39:52
 categories: miscellaneous
+tags: miscellaneous update
+author: Ashley
 ---
 Yeah, I know not a lot has happened here in the last few months, but uni work is really pushing down right now :( ah well, only 2 more months or so to go!! Once that's over, encrypt and remove will both quickly receive much attention again, as well as one or two other projects. One being the continuation of my final year personal project, which is very much security orientated. The second is a partnership between a (large) group of uni friends to put together a post-apocalyptic zombie MMORPG! [url=http://rinseworld.com](Check here for more info...)[/url]
 

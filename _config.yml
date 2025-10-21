@@ -37,6 +37,8 @@ plugins:
   #- jekyll-remote-theme
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-asciinema
+  - jekyll-youtube
 
 minima:
   show_excerpts: true

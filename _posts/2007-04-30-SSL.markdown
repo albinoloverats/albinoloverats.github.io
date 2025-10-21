@@ -3,6 +3,8 @@ layout: post
 title: "SSL"
 date: 2007-04-30 18:17:28
 categories: miscellaneous
+tags: miscellaneous site security
+author: Ashley
 ---
 We now have our own SSL Certificate - which works throughout the albinoloverats.net domain. All links to non https:// addresses are automatically redirected for your convenience :)
 

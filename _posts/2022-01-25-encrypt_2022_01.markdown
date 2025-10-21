@@ -1,0 +1,15 @@
+---
+layout: post
+title: "encrypt 2022.01"
+date: 2022-01-25 16:14:54
+categories: encrypt
+tags: encrypt release
+author: The encrypt Development Team
+---
+Well, it's been another 2 years but we're back with another release of [encrypt](/projects/encrypt)! On the face of it, it would appear that very little has changed but there has been significant changes under the covers, a lot of which should help with error reporting and debugging (if you're unlucky enough to need it).
+
+There is now a PKG installer for Apple OS X, although as encrypt is not yet signed (and distributed via the AppStore), it will generate a warning about being untrusted; this can be overridden in the security settings. There is also still not a complete Gentoo eBuild solution, but we'll get there one day.
+
+That's all for now,
+
+The encrypt Development Team

@@ -1,0 +1,20 @@
+---
+layout: post
+title: "encrypt 2015.10"
+date: 2015-10-04 15:12:57
+categories: encrypt
+tags: encrypt release
+author: The encrypt Development Team
+---
+[encrypt][] 2015.10 brings with it one significant new feature, as well as several bug fixes.
+
+The major update is that encrypt can now correct read errors in the encrypted file (when decrypting). If several bytes are not what they should be, then encrypt will detect and fix these errors - however if there are too many then you really should find out why the bytes on disk are not what they should be! It won't fix bad storage, but instead is to correct possible data transmission errors.
+
+Bug fixes include fixing the infinite loop when attempting to decrypt a file that isn't actually encrypted, fixing the compatibility menu on Android, and most significantly: allowing AES on Windows 8! This was achieved by using a different build of the GNU libgcrypt library.
+
+The only other item of note is that there is now a free version available on Android (supported by ads).
+
+That's all now this October release,
+The encrypt Development Team
+
+[encrypt]: /projects/encrypt

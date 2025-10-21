@@ -1,0 +1,15 @@
+---
+layout: post
+title: "encrypt 2024.01"
+date: 2023-12-30 09:57:49
+categories: encrypt
+tags: encrypt release
+author: The encrypt Development Team
+---
+Biennially seems to be how we release recently, if you can call the last 8 or 9 years recent! Again, there aren't too many _on the surface_ changes, but there are a handful of bug fixes and improvements in reliability---especially on Android.
+
+Library dependencies have been updated, and this is especially relevant on OS X as there the dependency management was incomplete and dependant on [Homebrew](https://brew.sh/) (building encrypt still is but at least is should now function properly without it).
+
+Stay secure,
+
+The encrypt Development Team

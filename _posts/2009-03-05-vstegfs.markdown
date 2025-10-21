@@ -3,6 +3,8 @@ layout: post
 title: "vstegfs"
 date: 2009-03-05 12:31:09
 categories: stegfs
+tags: stegfs release
+author: The stegfs Development Team
 ---
 We've been busy recently working on an update for our steganographic file system.  In an attempt to clean up the code, and make it slightly easier to read, it now makes use of libraries mcrypt and mhash.  Theoretically this allows any of the algorithms they support to be used, however vstegfs still currently uses Serpent and Tiger.
 
