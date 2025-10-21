@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+nav: false
 permalink: /about/
 ---
 
@@ -15,9 +16,10 @@ one thing and do it well—the original Unix way. Computers were designed
 to make life easier; why should you have to search through menu after
 menu to find what you're looking for when all you need to do is type (or
 possibly click) and go?! We aim to provide simple, clean, effective
-applications to ease your work.  Our focus is on security software for
-individual users; your work is your work, keep it that way, don't let
-anyone else steal you idea.
+applications to ease your work.
+
+Our focus is on security software for individual users; your work is
+your work, keep it that way, don't let anyone else steal you idea.
 
 “security is not something you can buy; it is something you must get” —
 Bruce Schneier.
