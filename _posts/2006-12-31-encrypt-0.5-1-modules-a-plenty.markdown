@@ -1,0 +1,13 @@
+---
+layout: post
+title: "encrypt 0.5-1 \"modules a plenty\""
+date: 2006-12-31 12:25:19
+categories: encrypt
+---
+encrypt now has plugin support. All that's needed now are some plugins for different algorithms. As such, this release is more aimed at developers who wish to write modules for encrypt to use.
+
+Before we start writing plugins, we will build the GUI, both for Linux and Windows and ensure that everything works with them; so feel free to send us your plugins so we can all start to use different encryption methods to secure our data :)
+
+On a more general note: there are a few changes to some data types, but the effect is the same as the previous release, thus they are (should be) fully compatible.
+
+Happy coding...
