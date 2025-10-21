@@ -3,6 +3,7 @@ layout: page
 title: encrypt
 nav: true
 permalink: /projects/encrypt
+fork: true
 ---
 
 encrypt is a small application which has been designed, from the beginning (all three of them so far), to be as simple to use as is practical. The idea is small and simple, yet with encryption that aims to be a strong as possible, while also giving the user the choice about how their data is secured.

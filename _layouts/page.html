@@ -7,6 +7,10 @@ layout: base
     <h2 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
+  {%- if page.fork -%}
+  <a class="github-fork-ribbon fixed" href="https://github.com/albinoloverats/{{ page.title }}" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+  {%- endif -%}
+
   <div class="post-content">
     {{ content }}
   </div>

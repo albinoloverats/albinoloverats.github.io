@@ -3,6 +3,7 @@ layout: page
 title: lmtpd
 nav: true
 permalink: /projects/lmtpd
+fork: true
 ---
 
 <span style="color:red;text-align:center;">This project is no longer in active development</span>

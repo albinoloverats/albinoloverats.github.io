@@ -3,6 +3,7 @@ layout: page
 title: stegfs
 nav: true
 permalink: /projects/stegfs
+fork: true
 ---
 
 stegfs is a steganographic file system in userspace which uses the [FUSE][] library. Steganographic file systems are one step ahead of (or beyond) traditional encrypted file systems as they aim to grant the user plausible deniability of the files within. The way that stegfs achieves this is by not remembering where each file is stored between mounts.
@@ -23,21 +24,14 @@ stegfs uses a file hierarchy similar to that of conventional file systems, altho
 
 Binary packages, and GPG signatures, for release 2015.08.1 are available below for x86_64 architectures; if you're looking to use stegfs on other operating systems and/or architectures, the source code is your best bet (it seems to work okay on FreeBSD):
 
-* [Arch Linux][]
-  * [Arch Package][ap]
-  * [GPG Signature][ag]
-* [Debian][]
-  * [DEB Package][dp]
-  * [GPG Signature][dg]
-* [Fedora][]
-  * [RPM Package][fp]
-  * [GPG Signature][fg]
-* [Slackware][]
-  * [TGZ Package][sp]
-  * [GPG Signature][sg]
-* Source
-  * [.tar.xz Archive][zp]
-  * [GPG Signature][zg]
+
+|OS|Package|GPG Signature|
+|-|-|-|
+|[Arch Linux]|[pkg][ap]|[Signature][ag]|
+|[Debian]|[deb][dp]|[Signature][dg]|
+|[Fedora]|[rpm][fp]|[Signature][fg]|
+|[Slackware]|[tgz][sp]|[Signature][sg]|
+|Source|[.tar.xz][zp]|[Signature][zg]|
 
 [FUSE]: http://fuse.sourceforge.net
 [libgcrypt]: http://www.gnu.org/software/libgcrypt/

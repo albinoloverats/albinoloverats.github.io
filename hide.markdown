@@ -3,6 +3,7 @@ layout: page
 title: hide
 nav: true
 permalink: /projects/hide
+fork: true
 ---
 
 hide is an steganographic image tool. It is very similar to [encrypt][]-simple and (eventually) cross-platform. It has, in fact, been designed and written to work alongside encrypt to provide a way to hide your encrypted data.

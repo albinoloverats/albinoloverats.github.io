@@ -2,11 +2,12 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 .site-header
 {
-  padding-top:1em;
+padding-top:1em;
 }
 #lg,.site-header,.site-footer,h1
 {
 text-align:center;
+border:none;
 }
 h2,h3,h4,h5,h6
 {
@@ -36,4 +37,5 @@ font-style:italic;
 .site-footer
 {
   @include relative-font-size(0.625);
+  padding:0;
 }
