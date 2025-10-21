@@ -24,7 +24,8 @@ description: "" # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://albinoloverats.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "albinoloverats.github.io"      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-logo: /assets/img/logo-192.png
+logo: /assets/images/logo-192.png
+permalink: /:year/:month/:day/:title:output_ext
 #twitter_username: jekyllrb
 github_username:  albinoloverats
 
