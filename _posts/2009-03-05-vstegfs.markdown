@@ -1,0 +1,13 @@
+---
+layout: post
+title: "vstegfs"
+date: 2009-03-05 12:31:09
+categories: stegfs
+---
+We've been busy recently working on an update for our steganographic file system.  In an attempt to clean up the code, and make it slightly easier to read, it now makes use of libraries mcrypt and mhash.  Theoretically this allows any of the algorithms they support to be used, however vstegfs still currently uses Serpent and Tiger.
+
+Some of the common code shared between encrypt and remove has also been used, primeraly to assist with debugging.
+
+A little more testing is going to take place before we consider building vstegfs into binary packages for popular distributions.  If you fancy going at it from source, the Makefile should be sufficient :)
+
+Enjoy

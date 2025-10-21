@@ -1,0 +1,11 @@
+---
+layout: post
+title: "remove 0.2-1"
+date: 2006-09-09 16:46:52
+categories: remove
+---
+Not only has encrypt gone "pro", but so have we! We've improved the way that remove does the removing so the process is a lot quicker.
+
+The GUI and Windows editions are now looking like proper products (which they are). And the bug which caused remove to bail if it couldn't find a file has been fixed - it will tell you it couldn't find the file then move on.
+
+Later :)

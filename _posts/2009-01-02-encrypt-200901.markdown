@@ -1,0 +1,15 @@
+---
+layout: post
+title: "encrypt-200901"
+date: 2009-01-02 07:56:09
+categories: encrypt
+---
+We've a new release of encrypt ready and waiting!  Version 200901 is available for download as a source tar/bz2 and MS Windows installer - as before - however, we have also put together both packages for Debian and Fedora :)
+
+[color=black][edit][/color]The DEB package has also been successfully installed on Ubuntu 8.10 and the RPM now also on openSUSE 11.1 :)[color=black][/edit][/color]
+
+Modules no longer need to be downloaded separately, all available algorithms are now included as part of the standard code base; as are all of the files needed to build all of the binary packages.
+
+Anyway, take the code, binaries, and return to us your bug reports and we'll see you with the next release :)
+
+The encrypt Dev Team

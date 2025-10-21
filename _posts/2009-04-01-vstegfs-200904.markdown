@@ -1,0 +1,16 @@
+---
+layout: post
+title: "vstegfs-200904"
+date: 2009-04-01 07:38:27
+categories: stegfs
+---
+There, we've done it!  We have successfully achieved what few before us set out to do: supply the world with a steganographic file system for the Linux Kernel.  [i]Alright[/i], it uses [def=Filesystem in Userspace]FUSE[/def], but still, we think it's pretty impressive.
+
+Binary packages are available for distributions which use either [b][def=Advanced Packaging Tool]apt[/def][/b] or [b][def=RPM Package Manager]rpm[/def][/b], as well as the straight-up source for those who live life on the edge.
+
+Check the [url=/vstegfs]project page[/url] out for a full list of what's what, and don't forget to read the README file.
+
+We'd love to hear from you if you have any problems, or requests for new features.  We'll cannot promise to add all features as the design does fulfil all of the rolls and requirements set out, but we'll certainly fix any bugs which crop up down the road.
+
+Stay safe,
+The vstegfs Team

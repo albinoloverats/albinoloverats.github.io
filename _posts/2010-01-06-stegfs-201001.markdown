@@ -1,0 +1,14 @@
+---
+layout: post
+title: "stegfs-201001"
+date: 2010-01-06 12:07:35
+categories: stegfs
+---
+Here we are in 2010, and likewise, here we have a new release for a new project (well okay, it's not new, just renamed).  We've started the migration from vstegfs to stegfs: move a directory here, add a symlink there, etc.  If things stop working let us know :)
+
+This release should provide better protection against read/write issues caused by multi-threaded access.  It also provides a nice way to see what files have been created/accessed during the current session.
+
+A word to the wise: whilst we've tested the functionality of this build, we've not really tested the update process from vstegfs-200910 or earlier.  There shouldn't be any problems because the file system structure has remained the same, as has the hiding/finding and encryption/decryption process, but we're making no promises.
+
+With all that said, it's time to return to work,
+Enjoy

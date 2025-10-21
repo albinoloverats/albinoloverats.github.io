@@ -1,0 +1,18 @@
+---
+layout: post
+title: "stegfs"
+date: 2014-10-10 20:18:45
+categories: stegfs
+---
+It's been _a long_ time, but I have finally been able to rewrite [stegfs][] to my own liking. It's near-enough a complete rewrite, however a few things have stayed the same. For instance the file system structure has stayed the same, although this doesn't mean this new version is compatible with the old - the new stegfs **IS NOT BACKWARDS COMPATIBLE**.
+
+It makes use of a lot of ideas that were implemented in the more recent versions of [encrypt][]; such as storing integers in network byte order (for portability), reducing code complexity (to make it easier to maintain and enhance), and laying some good groundwork for future compatibility. The IO performance has been improved, although stegfs has (temporarily) regressed to being single threaded, and you can be sure that when you delete a file, it is completely deleted (previously only the file header was deleted).
+
+It's not yet ready for a proper release, but it seems stable enough — it's at least as stable as version 2010.01 was. There's a little more testing to be done, as well as getting all of the build scripts back in working order. Hopefully in the next few months there'll be a new public release, and I can go back to seeing if [Dropbox][] can handle syncing a 1GB steganographic file system ;-)
+
+Until then,
+Ashley
+
+[stegfs]: /projects/stegfs
+[encrypt]: /projects/encrypt
+[Dropbox]: https://www.dropbox.com/

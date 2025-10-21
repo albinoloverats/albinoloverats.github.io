@@ -1,0 +1,15 @@
+---
+layout: post
+title: "encrypt 0.6"
+date: 2007-06-06 16:33:15
+categories: encrypt
+---
+The source code for the next release of encrypt is now available through subversion (details on the encrypt page). The code should be treated as an alpha release until we say otherwise.
+
+It's a complete rewrite and as such might be full of bugs, etc. and because of the way it handles the encryption algorithm libraries it isn't yet portable and has only be tested on a GNU/Linux system - if you have any luck getting it to work on other systems please let us know.
+
+It currently comes with only one algorithm: The eXtended Tiny Encryption Algorithm (XTEA), but we are working on others...
+
+As soon as we have a few more algorithms available, and have had the chance to test everything on a variety of systems we'll be ready to actually formally release it, but until then, have fun
+
+The encrypt Team

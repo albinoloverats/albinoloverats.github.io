@@ -1,0 +1,14 @@
+---
+layout: post
+title: "encrypt 2013.11.01"
+date: 2014-01-26 17:16:10
+categories: encrypt
+---
+Following on from the previous post, which explained that the latest version of libgcrypt no longer had a couple of functions that were use to get a list of supported algorithms, we have an updated version of encrypt that overcomes this. Currently this issue only affects GUN/Linux systems (Arch/Debian/Fedora), but it could manifest itself in OS X (if/when Homebrew updates its version of libgcrypt) so we'll see about rebuilding that edition too.
+
+**Neither the Android nor Windows editions are effected.**
+
+The latest binary packages are available from the downloads directory as normal.
+
+Until next time,
+The encrypt Dev Team

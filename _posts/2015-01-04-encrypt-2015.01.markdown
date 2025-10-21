@@ -1,0 +1,16 @@
+---
+layout: post
+title: "encrypt 2015.01"
+date: 2015-01-04 19:16:21
+categories: encrypt
+---
+So we're back again with another early-in-the-year release. There are several bug fixes on all platforms and a couple of new features (again for all platforms). These include: fixed the Android/Windows incompatibility; plugged a range of memory leaks; updated directory handling; advanced users can now disable to standard encrypt file header _(see below)_; new notification on Android for when progress is complete; better random IV; **new Slackware package**.
+
+_NB: If you disable the file header you will need to remember which algorithms and encryption mode you selected when you come to decrypt your files._
+
+That's pretty much it for now, if it doesn't work for you let us know by opening a new bug report, and we'll see what we can do to fix it for you.
+
+**Edit:** The initial 2015.01 release had a subtle bug regarding secure memory—it didn't request enough from the OS. This resulted in out of memory errors (naturally). We've increased the amount of memory requested, and packaged up a new release: 2015.01.1.
+
+Thanks,
+~ The encrypt Development Team

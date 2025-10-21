@@ -1,0 +1,11 @@
+---
+layout: post
+title: "SSL"
+date: 2007-04-30 18:17:28
+categories: miscellaneous
+---
+We now have our own SSL Certificate - which works throughout the albinoloverats.net domain. All links to non https:// addresses are automatically redirected for your convenience :)
+
+Due to the certificate being not being for sub domains, we've removed those for [url=/projects/encrypt]encrypt[/url] and [url=/projects/remove]remove[/url] and they can now be found at the above addresses for quick reference - which forward to the long addresses (with all the PHP variables).
+
+Anyway, for the most part nothing much else has changed - after finals, a "normal" development routine will resume.

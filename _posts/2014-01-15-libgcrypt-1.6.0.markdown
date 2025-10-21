@@ -1,0 +1,14 @@
+---
+layout: post
+title: "libgcrypt 1.6.0"
+date: 2014-01-15 20:31:16
+categories: encrypt
+---
+It looks like the latest version of libgcrypt (1.6.0) is incompatible with encrypt. The functions for getting a list of supported algorithms (both cipher and hash) have been removed/renamed. This is _currently_ limited to GNU/Linux systems, although it could soon affect Macs (as and when libgcrypt is updated in Homebrew).
+
+I suppose this might persuade us to specify exact version numbers in the list of dependencies (but we'll see).
+
+We should be able to rewrite encrypt to make use of the newer version of the library, and will release an update for GNU/Linux systems as soon as possible - hopefully this coming weekend.
+
+Sorry for any inconvenience,
+Ash

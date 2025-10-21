@@ -1,0 +1,13 @@
+---
+layout: post
+title: "encrypt 2017.09"
+date: 2017-09-15 17:36:58
+categories: encrypt
+---
+It's been nearly two years, but we have finally brought out a new release of our flagship [encrypt](/projects/encrypt)ion application.
+
+There have been a host of changes and bug fixes, including improved key derivation and MAC authentication. There are two new binary packages available: FreeBSD and Windows (64 bit); Win32 has gone the way of the dodo and is no longer available. We have also fixed the Android version to work properly with its latest permission handling.
+
+Downloads are available in all the usual places; so until next time, stay secure.
+
+The encrypt Development Team

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "RSS Feed"
+date: 2009-03-09 15:54:29
+categories: miscellaneous
+---
+We have added a new feature to the site - an RSS feed so that those who wish to follow our work are able to do without the need to continually hit refresh.  This is more of a test than anything else to see if it actually works correctly :)
+
+This is most likely going to be useful to those who use our software, and are looking for some way of being notified of new release (which is exactly what we were thinking as we implemented it).
+
+Anyway, that's all for now...

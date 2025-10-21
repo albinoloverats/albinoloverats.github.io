@@ -1,0 +1,11 @@
+---
+layout: post
+title: "New Site"
+date: 2008-12-09 15:13:48
+categories: miscellaneous
+---
+Here's the new site!  It's still in its testing phase, but most things should work as expected.  It's a little simpler than the existing site, but incorporates everything we need: bug tracker, mini-blog, and project management.
+
+A few [i]extras[/i] include BBCode support, source code browser and GPG encrypted emails to go alongside the SSL HTTP connection.  As before, use of the bug tracker requires user registration to submit or comment, however unregistered users are now able to view and search the reports.
+
+With this work now in its finishing stages, we should be able to resume work on our traditional projects.

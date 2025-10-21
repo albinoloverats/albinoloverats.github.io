@@ -1,0 +1,9 @@
+---
+layout: post
+title: "encrypt 0.2-1"
+date: 2006-09-08 18:30:00
+categories: encrypt
+---
+encrypt 0.2-1 is our most professional looking and operating release to date! Fixes to the glue between the front-end and back-end allow the catching of errors before they cause problems.
+
+Get it from SourceForge now [url]http://sourceforge.net/projects/encrypt/[/url]

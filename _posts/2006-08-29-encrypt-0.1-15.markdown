@@ -1,0 +1,11 @@
+---
+layout: post
+title: "encrypt 0.1-15"
+date: 2006-08-29 10:07:24
+categories: encrypt
+---
+This release includes a change to the algorithm! Remember to decrypt then re-encrypt. It also now uses the entire key file (if supplied with a key file) and includes a few memory/malloc improvements :D
+
+In addition to the entire key file now being used, if the file contains only a single line, ie: "mypassphrase", this is now exactly the same as using the "-p mypassphrase" option. The issue before was an extra null value being included in the length of the passphrase.
+
+Enjoy both *nix and Windows editions... :)

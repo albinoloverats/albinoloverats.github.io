@@ -1,0 +1,12 @@
+---
+layout: post
+title: "vstegfs-200910"
+date: 2009-10-05 12:06:05
+categories: stegfs
+---
+We've put together another release of vstegfs; there's been a few changes to the code and one or two minor fixes, but nothing major or ground-breaking.
+
+There are packages available for systems supporting either DEB or RPM - however they are only for 64 bit systems - there are no 32 bit builds: you will have to build from source yourself.  This makes a change from the last release which was 32 bit only, and is due to time and availability for building and testing on such architectures.
+
+Until next time,
+The vstegfs Dev Team
