@@ -40,6 +40,7 @@ plugins:
   - jekyll-paginate
   - jekyll-asciinema
   - jekyll-youtube
+  - jekyll-redirect-from
 
 minima:
   show_excerpts: true

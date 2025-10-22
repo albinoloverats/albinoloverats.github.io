@@ -1,0 +1,6 @@
+The 1st release under its new name, list of changes below:
+
+- Complete rewrite of the Fuse interface, and a major overhaul of the stegfs backend.
+- Mutex’s have been added to limit access to a single thread at a time.
+- Files are written when flush(); therefore you shouldb’t really call flush() multiple times on an open file or you might serious‐ ly screw things up :p
+- Added proc style directory; it lists known files as symbolic links, and also‐‐‐in the bitmap directory‐‐‐a list of all blocks currently known about and in use.

@@ -19,6 +19,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-asciinema', '~> 0.2.1'
   gem 'jekyll-youtube', '~> 1.0'
+  gem 'jekyll-redirect-from'
+
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

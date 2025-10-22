@@ -37,23 +37,23 @@ Binary packages, and GPG signatures, for release 2015.08.1 are available below f
 [libgcrypt]: http://www.gnu.org/software/libgcrypt/
 
 [Arch Linux]: http://www.archlinux.org
-[ap]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1-1-x86_64.pkg.tar.xz
-[ag]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1-1-x86_64.pkg.tar.xz.asc
+[ap]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1-1-x86_64.pkg.tar.xz
+[ag]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1-1-x86_64.pkg.tar.xz.asc
 
 [Debian]: http://www.debian.org
-[dp]: /downloads/stegfs/2015.08.1/stegfs_2015.08.1-1_amd64.deb
-[dg]: /downloads/stegfs/2015.08.1/stegfs_2015.08.1-1_amd64.deb.asc
+[dp]: /assets/downloads/stegfs/2015.08.1/stegfs_2015.08.1-1_amd64.deb
+[dg]: /assets/downloads/stegfs/2015.08.1/stegfs_2015.08.1-1_amd64.deb.asc
 
 [Fedora]: http://fedoraproject.org
-[fp]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1-1.x86_64.rpm
-[fg]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1-1.x86_64.rpm.asc
+[fp]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1-1.x86_64.rpm
+[fg]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1-1.x86_64.rpm.asc
 
 [Slackware]: http://www.slackware.com
-[sp]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1-x86_64-1aa.tgz
-[sg]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1-x86_64-1aa.tgz.asc
+[sp]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1-x86_64-1aa.tgz
+[sg]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1-x86_64-1aa.tgz.asc
 
-[zp]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1.tar.xz
-[zg]: /downloads/stegfs/2015.08.1/stegfs-2015.08.1.tar.xz.asc
+[zp]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1.tar.xz
+[zg]: /assets/downloads/stegfs/2015.08.1/stegfs-2015.08.1.tar.xz.asc
 
 *[FUSE]: Filesystem in Userspace
 *[RPM]: RPM Package Manager
