@@ -59,5 +59,5 @@ a trust certificate/store.
 
 ## Running
 
-There is a Dockerfile for the server, although it is not yet available
-on [Dockerhub](https://hub.docker.com/).
+There is a Docker image for the server, which is available from
+[Dockerhub](https://hub.docker.com/repository/docker/albinoloverats/messaging-server/general).
