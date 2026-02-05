@@ -6,8 +6,8 @@ permalink: /projects/messaging
 fork: true
 ---
 
-This is (intended to be) a fast and simple event messaging framework,
-with support for:
+This is (intended to be) a fast and simple event messaging framework, with
+support for:
 
 * Events
 * Queries (events that expect/generate a response)
@@ -17,10 +17,11 @@ with support for:
 
 ## Getting Started
 
-To get started with  just and the following to your `build.gradle` for
-your [Spring Boot](https://spring.io/projects/spring-boot) service:
+To get started with  just and the following to your `build.gradle` for your
+[Spring Boot](https://spring.io/projects/spring-boot) service:
 
-    implementation "net.albinoloverats.messaging:messaging-client:0.0.1"
+    implementation "net.albinoloverats.messaging:messaging-client:0.1.1"
+    testImplementation "net.albinoloverats.messaging:messaging-test:0.1.1"
 
 And then annotate you event objects with `@Event` and your even handler
 methods with `@EventHandler`. Likewise for any queries. Everything else
@@ -28,15 +29,15 @@ should then be handled for you.
 
 ## Configuration
 
-Configuration options are identical for both server and client; an
-optional list of server hosts, which defaults to auto and will direct
-servers to issue a UDP broadcast message that can be picked up by other
-server and clients alike (provided they are on the same network). A
-value of none will disable this entirely and essentially force a single
-server instance. The SSL/TLS capabilities can also be configured, from
-the protocol version, to choosing between PEM certificates or JKS, with
-a fall-back default of an ephemeral/in-memory certificate (only really
-recommended for testing and development).
+Configuration options are identical for both server and client; an optional
+list of server hosts, which defaults to auto and will direct servers to
+issue a UDP broadcast message that can be picked up by other server and
+clients alike (provided they are on the same network). A value of none will
+disable this entirely and essentially force a single server instance. The
+SSL/TLS capabilities can also be configured, from the protocol version,
+to choosing between PEM certificates or JKS, with a fall-back default of
+an ephemeral/in-memory certificate (only really recommended for testing
+and development).
 
     messaging:
       hosts:
@@ -61,3 +62,13 @@ a trust certificate/store.
 
 There is a Docker image for the server, which is available from
 [Dockerhub](https://hub.docker.com/repository/docker/albinoloverats/messaging-server/general).
+
+## Demoonstration/Example
+
+There is now also a [messaging-demo](https://github.com/albinoloverats/messaging-demo)
+(as a separate project), which serves as a simple demo application. At a
+minimum it will require a database; MariaDB is what's configured by default.
+It also gives the option of enabling Kafka or Axon for a messaging comparison.
+And if you wish to go full-Docker you can also see how Prometheus and Grafana
+can be used for metrics and monitoring, with Traefik for optional
+load-balancing.
