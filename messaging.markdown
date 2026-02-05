@@ -63,7 +63,15 @@ a trust certificate/store.
 There is a Docker image for the server, which is available from
 [Dockerhub](https://hub.docker.com/repository/docker/albinoloverats/messaging-server/general).
 
-## Demoonstration/Example
+## Testing
+
+As hinted above there is the messaging-test library, which is a Spring
+Boot starter test library. It contains a simple, in-memory client/server
+that can be accessed via the static methods in the TestMessagingHarness
+class. There are also a few simple Matchers that work similarly to
+Hamcrest/Mockito (and ideally they don't conflict).
+
+## Demonstration/Example
 
 There is now also a [messaging-demo](https://github.com/albinoloverats/messaging-demo)
 (as a separate project), which serves as a simple demo application. At a
