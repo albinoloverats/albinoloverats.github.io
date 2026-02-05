@@ -11,9 +11,10 @@ Messaging Architecture. It may not be big and professional like Kafka,
 but it sure is a hell of a lot easier to get up and running; certainly
 based on my own experience in my day job!
 
-There is a server that can easily be pulled via Docker Compose; a single
-dependency for client services (and a sneaky second dependency for testing)
-that is available from the [Maven Central Repository](https://central.sonatype.com/artifact/net.albinoloverats.messaging/messaging-client/overview).
+There is a server that can easily be pulled via [Docker](https://hub.docker.com/repository/docker/albinoloverats/messaging-server/general)
+Compose; a single dependency for client services (and a sneaky second
+dependency for testing) that is available from the
+[Maven Central Repository](https://central.sonatype.com/artifact/net.albinoloverats.messaging/messaging-client/overview).
 There is also a demo project that showcases how to make use of it all.
 
 More information can be found on the [project page](/projects/messaging).
