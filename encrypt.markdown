@@ -78,8 +78,8 @@ A demo of using the CLI can be found over on [asciinema](https://asciinema.org/a
 
 [mp]: https://market.android.com/details?id=net.albinoloverats.android.encrypt
 [ms]: /assets/pixmaps/encrypt/screenshot_android_idle.png
-[gp]: /assets/downloads/encrypt/2025.05/android/encrypt-2025.05-free.apk
-[gg]: /assets/downloads/encrypt/2025.05/android/encrypt-2025.05-free.apk.asc
+[gp]: /assets/downloads/encrypt/2025.05/android/encrypt-2025.05-2-free.apk
+[gg]: /assets/downloads/encrypt/2025.05/android/encrypt-2025.05-2-free.apk.asc
 
 [OS X]: https://www.apple.com
 [xp]: /assets/downloads/encrypt/2025.05/desktop/encrypt-2025.05-install.pkg
